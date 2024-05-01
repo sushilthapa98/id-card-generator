@@ -1,0 +1,42 @@
+[
+  {
+    "id": "CW-79-1234",
+    "name": "Sushil Thapa",
+    "address": "Panga-10, Kirtipur",
+    "phone": "9860082014",
+    "image": "image/profile.png",
+    "designation": "Digital Marketing & IT Head"
+  },
+  {
+    "id": "CW-79-1235",
+    "name": "Jeevan Thapa",
+    "address": "Panga-2, Kirtipur",
+    "phone": "9860082015",
+    "image": "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    "designation": "Co-Founder"
+  },
+  {
+    "id": "CW-79-1236",
+    "name": "Anil Joshi",
+    "address": "Baganaha-3, Bardiya",
+    "phone": "9860082016",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwXuC-R_vPRCVYVw19N6DKXUYM8Ae2St95To_TUF63HuygHYcgCDU8SthpSZTvuA8m6rw&usqp=CAU",
+    "designation": "Primary Teacher"
+  },
+  {
+    "id": "CW-79-1237",
+    "name": "Sandeep Tharu",
+    "address": "Buspark, Nepalgunj",
+    "phone": "9860082017",
+    "image": "https://thumbs.dreamstime.com/b/head-shot-portrait-smiling-businessman-wearing-suit-looking-camera-confident-glasses-profile-picture-successful-executive-204723095.jpg",
+    "designation": "Managing Director"
+  },
+  {
+    "id": "CW-79-1238",
+    "name": "Betty Ray",
+    "address": "Panga-10, Kirtipur",
+    "phone": "9860082018",
+    "image": "https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg",
+    "designation": "Marketing Head"
+  }
+]

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Id Card Generator</title>
+    <style>
+      #idcard-preview {
+        width: 100%;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="" frameborder="0" id="idcard-preview" title="Id Card Preview"></iframe>
+    <button type="button" onclick="downloadIdCard()">Download PDF</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="base64-uris.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+      fetch('employees.json')
+        .then((response) => response.json())
+        .then((data) => {
+          generateIdCard(data);
+        });
+    </script>
+  </body>
+</html>
